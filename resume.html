@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nadav DevOps</title>
+  <link href="resume.css" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/public-pixel" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container">
+        <div class="options">
+            <a href="index.html" class="option-btn">Home</a>
+            <a href="contact.html" class="option-btn">Contact</a>
+        </div>
+    <h1>Nadav Rozen</h1>
+    <p class="subtitle">DevOps Engineer</p>
+    <p class="contact">📍 Ramat Gan | 📞 050-3212620 | 📧 nadav.rozen12@gmail.com</p>
+    <p class="contact"><a href="https://www.linkedin.com/in/nadavrozen">LinkedIn</a></p>
+
+    <div class="accordion">
+      <button onclick="toggle('summary')">Summary</button>
+      <div id="summary" class="hidden">
+        <p>With a certificate in Cyber Security and currently studying DevOps Engineering, I am eager to learn and apply my technical skills and passion for scalable, cutting-edge solutions in a dynamic, team-oriented environment.</p>
+      </div>
+
+      <button onclick="toggle('experience')">Experience</button>
+      <div id="experience" class="hidden">
+        <p><strong>Burger Salon</strong> - Front Desk and Shift Manager (11/2022 - 10/2023)</p>
+        <p><strong>Military Service</strong> (11/2016 - 11/2020)</p>
+        <ul>
+          <li>Commander's and Officer's Course</li>
+          <li>Artillery Platoon Officer</li>
+          <li>Operations Officer</li>
+          <li>Deputy Company Commander</li>
+          <li>Platoon Officer "Reserves" (Currently)</li>
+          <li>Implemented Bagira Cannons at Artillery Bombers Base</li>
+        </ul>
+      </div>
+
+      <button onclick="toggle('education')">Education</button>
+      <div id="education" class="hidden">
+        <p><strong>ORT Israel</strong> - DevOps Engineer Course (11/2024 - Present)</p>
+        <ul>
+          <li>Git, GitHub, Jenkins, Bitbucket</li>
+          <li>Terraform, AWS CloudFormation</li>
+          <li>Docker, Kubernetes, AWS SSA (Ongoing)</li>
+          <li>Python, Bash, HTML, CSS</li>
+          <li>SQL, MongoDB</li>
+        </ul>
+        <p><strong>HackerU</strong> - Cyber Course (11/2022 - 07/2023)</p>
+        <ul>
+          <li>Network, Privilege Escalation, Enumeration</li>
+          <li>Linux, Windows Server, Cisco CLI</li>
+          <li>OWASP, SIEM/SOC, Wireshark, Burpsuite</li>
+        </ul>
+      </div>
+
+      <button onclick="toggle('certifications')">Certifications</button>
+      <div id="certifications" class="hidden">
+        <ul>
+          <li>Cyber Security Certified by Hacker-U</li>
+          <li>Penetration Tester Certified by TDX-Arena</li>
+        </ul>
+      </div>
+
+      <div class="download">
+        <a href="NadavRozenResume.pdf" download>📄 Download Resume (PDF)</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggle(id) {
+      const section = document.getElementById(id);
+      section.classList.toggle('hidden');
+    }
+  </script>
+</body>
+</html>

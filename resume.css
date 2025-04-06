@@ -1,0 +1,101 @@
+body {
+    background-color: #052f2b;
+    color: #1f2937;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1.5rem;
+  }
+  
+  @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+
+  .container {
+    max-width: 42rem;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    padding: 1.5rem;
+  }
+  
+  .options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Public Pixel', sans-serif;
+  }
+
+  .option-btn {
+    background-color: #673ab7;
+    color: blanchedalmond;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: 'Public Pixel', sans-serif;
+}
+
+.option-btn:hover {
+    background-color: #512da8;
+}
+
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .subtitle {
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 0.25rem;
+  }
+  
+  .contact {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #9ca3af;
+  }
+  
+  .accordion button {
+    width: 100%;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.125rem;
+    background-color: #e5e7eb;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    margin-top: 0.75rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .accordion div {
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .download {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  
+  .download a {
+    background-color: #2563eb;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .download a:hover {
+    background-color: #1e40af;
+  }
+  
